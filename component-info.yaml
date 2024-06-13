@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "aks-s3"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-s3-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "aks-s3"
+  description: "test"
+  tags: ["aws-s3"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
